@@ -19,3 +19,5 @@ class Config:
     MS_TRANSLATOR_KEY = os.getenv('MS_TRANSLATOR_KEY')
     REGION = 'southeastasia'
     print(MS_TRANSLATOR_KEY)
+    ELASTICSEARCH_URL = os.environ.get('ELASTICSEARCH_URL')
+    # 78be91cc62624d84a896b69cd97e69b9
