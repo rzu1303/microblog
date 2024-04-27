@@ -22,9 +22,18 @@
                             'post{{ post.id }}',
                             'translation{{ post.id }}',
                             '{{ post.language }}',
-                            '{{ g.locale }}');">{{ _('Translate') }}</a>
+                            '{{ g.locale }}');"></a>
             </span>
             {% endif %}
         </td>
     </tr>
 </table>
+
+<!-- 
+    This is a multiline comment in HTML.
+            <span id="translation{{ post.id }}">
+                <a href="javascript:translate(
+                            'post{{ post.id }}',
+                            'translation{{ post.id }}',
+                            '{{ post.language }}',
+                            '{{ g.locale }}');">{{ _('Translate') }}</a> -->.

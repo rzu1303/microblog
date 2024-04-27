@@ -13,6 +13,8 @@ from elasticsearch import Elasticsearch
 
 def get_locale():
     return request.accept_languages.best_match(current_app.config['LANGUAGES'])
+    # return 'es'
+    # return 'bn'
 
 
 db = SQLAlchemy()

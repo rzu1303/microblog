@@ -17,6 +17,7 @@ def translate(text, source_language, dest_language):
             source_language, dest_language), headers=auth, json=[
                 {'Text': text}])
     if r.status_code != 200:
-        # print(r.json())
+        print(r.json())
+        print('test')
         return _('Error: the translation service failed.')
     return r.json()[0]['translations'][0]['text']
