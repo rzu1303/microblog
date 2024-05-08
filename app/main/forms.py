@@ -1,3 +1,4 @@
+from flask import request
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField, TextAreaField
 from wtforms.validators import ValidationError, DataRequired, Length
@@ -5,7 +6,6 @@ import sqlalchemy as sa
 from flask_babel import _, lazy_gettext as _l
 from app import db
 from app.models import User
-from flask import request
 
 
 class EditProfileForm(FlaskForm):
@@ -49,5 +49,5 @@ class SearchForm(FlaskForm):
 
 class MessageForm(FlaskForm):
     message = TextAreaField(_l('Message'), validators=[
-        DataRequired(), Length(min=0, max=140)])
+        DataRequired(), Length(min=1, max=140)])
     submit = SubmitField(_l('Submit'))

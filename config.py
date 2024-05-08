@@ -8,6 +8,7 @@ class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'you-will-never-guess'
     SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL') or \
         'sqlite:///' + os.path.join(basedir, 'app.db')
+    print(SQLALCHEMY_DATABASE_URI)
     MAIL_SERVER = os.environ.get('MAIL_SERVER')
     MAIL_PORT = int(os.environ.get('MAIL_PORT') or 25)
     MAIL_USE_TLS = os.environ.get('MAIL_USE_TLS') is not None
@@ -18,6 +19,8 @@ class Config:
     POSTS_PER_PAGE = 25
     MS_TRANSLATOR_KEY = os.getenv('MS_TRANSLATOR_KEY')
     REGION = 'southeastasia'
-    print(MS_TRANSLATOR_KEY)
+
     ELASTICSEARCH_URL = os.environ.get('ELASTICSEARCH_URL')
-    # 78be91cc62624d84a896b69cd97e69b9
+    REDIS_URL = os.environ.get('REDIS_URL') or 'redis://'
+
+    LOG_TO_STDOUT = os.getenv('LOG_TO_STDOUT', None)
