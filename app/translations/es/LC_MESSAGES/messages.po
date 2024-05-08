@@ -8,7 +8,11 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-04-28 00:02+0600\n"
+=======
+"POT-Creation-Date: 2024-05-05 22:42+0600\n"
+>>>>>>> f877bfc (deployment done)
 =======
 "POT-Creation-Date: 2024-05-05 22:42+0600\n"
 >>>>>>> f877bfc (deployment done)
@@ -31,7 +35,11 @@ msgid "Error: the translation service is not configured."
 msgstr "Error: el servicio de traducciones no está configurado."
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: app/translate.py:22
+=======
+#: app/translate.py:21
+>>>>>>> f877bfc (deployment done)
 =======
 #: app/translate.py:21
 >>>>>>> f877bfc (deployment done)
@@ -117,6 +125,7 @@ msgstr "Dí algo"
 
 #: app/main/forms.py:40 app/main/routes.py:179
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, fuzzy
 msgid "Search"
 msgstr "Usuario"
@@ -125,12 +134,17 @@ msgstr "Usuario"
 msgid "Message"
 msgstr ""
 =======
+=======
+>>>>>>> f877bfc (deployment done)
 msgid "Search"
 msgstr "Buscar"
 
 #: app/main/forms.py:51
 msgid "Message"
 msgstr "Mensaje"
+<<<<<<< HEAD
+>>>>>>> f877bfc (deployment done)
+=======
 >>>>>>> f877bfc (deployment done)
 
 #: app/main/routes.py:39
@@ -178,6 +192,7 @@ msgstr "No estás siguiendo a %(username)s."
 
 #: app/main/routes.py:195
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, fuzzy
 msgid "Your message has been sent."
 msgstr "Tu contraseña ha sido cambiada."
@@ -186,6 +201,8 @@ msgstr "Tu contraseña ha sido cambiada."
 msgid "Send Message"
 msgstr ""
 =======
+=======
+>>>>>>> f877bfc (deployment done)
 msgid "Your message has been sent."
 msgstr "Tu mensaje ha sido enviado."
 
@@ -200,6 +217,9 @@ msgstr "Una tarea de exportación esta en progreso"
 #: app/main/routes.py:227
 msgid "Exporting posts..."
 msgstr "Exportando artículos..."
+<<<<<<< HEAD
+>>>>>>> f877bfc (deployment done)
+=======
 >>>>>>> f877bfc (deployment done)
 
 #: app/templates/_post.html:14
@@ -222,7 +242,11 @@ msgstr "Ingresar"
 #: app/templates/base.html:47 app/templates/messages.html:4
 msgid "Messages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mensajes"
+>>>>>>> f877bfc (deployment done)
 =======
 msgstr "Mensajes"
 >>>>>>> f877bfc (deployment done)
@@ -242,7 +266,11 @@ msgstr "¡Hola, %(username)s!"
 
 #: app/templates/index.html:16 app/templates/search.html:12
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: app/templates/user.html:44
+=======
+#: app/templates/user.html:47
+>>>>>>> f877bfc (deployment done)
 =======
 #: app/templates/user.html:47
 >>>>>>> f877bfc (deployment done)
@@ -251,7 +279,11 @@ msgstr "Artículos siguientes"
 
 #: app/templates/index.html:21 app/templates/search.html:17
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: app/templates/user.html:49
+=======
+#: app/templates/user.html:52
+>>>>>>> f877bfc (deployment done)
 =======
 #: app/templates/user.html:52
 >>>>>>> f877bfc (deployment done)
@@ -259,6 +291,7 @@ msgid "Older posts"
 msgstr "Artículos previos"
 
 #: app/templates/messages.html:12
+<<<<<<< HEAD
 <<<<<<< HEAD
 #, fuzzy
 msgid "Newer messages"
@@ -289,6 +322,23 @@ msgstr ""
 =======
 msgstr "Enviar Mensaje a %(recipient)s"
 >>>>>>> f877bfc (deployment done)
+=======
+msgid "Newer messages"
+msgstr "Mensajes siguientes"
+
+#: app/templates/messages.html:17
+msgid "Older messages"
+msgstr "Mensajes previos"
+
+#: app/templates/search.html:4
+msgid "Search Results"
+msgstr ""
+
+#: app/templates/send_message.html:5
+#, python-format
+msgid "Send Message to %(recipient)s"
+msgstr "Enviar Mensaje a %(recipient)s"
+>>>>>>> f877bfc (deployment done)
 
 #: app/templates/user.html:8
 msgid "User"
@@ -313,6 +363,7 @@ msgid "Edit your profile"
 msgstr "Editar tu perfil"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: app/templates/user.html:20 app/templates/user_popup.html:15
 msgid "Follow"
 msgstr "Seguir"
@@ -324,6 +375,23 @@ msgstr "Dejar de seguir"
 #: app/templates/user.html:32
 msgid "Send private message"
 msgstr ""
+=======
+#: app/templates/user.html:17
+msgid "Export your posts"
+msgstr "Exportar tus artículos"
+
+#: app/templates/user.html:23 app/templates/user_popup.html:15
+msgid "Follow"
+msgstr "Seguir"
+
+#: app/templates/user.html:30 app/templates/user_popup.html:22
+msgid "Unfollow"
+msgstr "Dejar de seguir"
+
+#: app/templates/user.html:35
+msgid "Send private message"
+msgstr "Enviar mensaje privado"
+>>>>>>> f877bfc (deployment done)
 =======
 #: app/templates/user.html:17
 msgid "Export your posts"
@@ -378,9 +446,12 @@ msgstr "Ha ocurrido un error inesperado"
 msgid "The administrator has been notified. Sorry for the inconvenience!"
 msgstr "El administrador ha sido notificado. ¡Lamentamos la inconveniencia!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #~ msgid "Search"
 #~ msgstr "Buscar"
+=======
+>>>>>>> f877bfc (deployment done)
 =======
 >>>>>>> f877bfc (deployment done)
 
